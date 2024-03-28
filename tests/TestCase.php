@@ -2,6 +2,7 @@
 
 namespace Milwad\LaravelAttributes\Tests;
 
+use Illuminate\Support\Facades\Artisan;
 use Milwad\LaravelAttributes\LaravelAttributesServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
@@ -37,6 +38,9 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     protected function setUp(): void
     {
         parent::setUp();
+
         $this->loadMigrationsFrom(__DIR__.'/SetUp/migrations');
+
+        Artisan::call('migrate');
     }
 }
