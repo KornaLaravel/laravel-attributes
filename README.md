@@ -8,8 +8,7 @@
 [![Passed Tests](https://github.com/milwad-dev/laravel-attributes/actions/workflows/run-tests.yml/badge.svg)](https://github.com/milwad-dev/laravel-attributes/actions/workflows/run-tests.yml)
 [![PHP Version Require](https://img.shields.io/packagist/dependency-v/milwad/laravel-attributes/php)](https://packagist.org/packages/milwad/laravel-attributes)
 ***
-Laravel attributes is a package for create attributes easy. <br>
-With laravel attributes you can make attributes for all model (Polymorphic). <br>
+The `laravel-attributes` package is a tool designed to help Laravel developers easily manage and implement custom attributes in their projects. It enables you to define attributes directly on Eloquent models, making it simpler to handle dynamic or calculated properties without directly modifying the database schema. With this package, you can create and configure attribute sets for models, making it easier to organize and extend data handling in Laravel applications. It's especially useful for projects that require customizable and flexible data models. <br>
 You don't have any stress for attributes! You can create attributes for any model and display like drink water :)
 
 # Requirements
