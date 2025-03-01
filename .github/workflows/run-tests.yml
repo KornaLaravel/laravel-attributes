@@ -13,7 +13,7 @@ jobs:
         dependency-version: [prefer-lowest, prefer-stable]
         include:
           - laravel: 12.*
-            testbench: 9.*
+            testbench: 10.*
             pest-plugin-laravel: 3.1.0
 
           - laravel: 11.*
